@@ -1,0 +1,102 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-image: url("innerve4.jpg");
+	background-attachment: fixed;
+
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Futura.ttf);
+
+}
+
+
+
+.countdown[_ngcontent-c1] {
+    margin-top: -30vh;
+    margin-left: 0%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+
+#timer {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+#internal {
+    color: #fff;
+    background-color: #000;
+    background-color: rgba(0,0,0,.76);
+    padding: 15px;
+}
+
+
+.about {
+	 font-family: myFirstFont,serif;
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: .17em;
+    margin-bottom: 12.5vh;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 42%;
+}
+
+
+
+.card[_ngcontent-c4] {
+    background-color: #000;
+    background-color: rgba(0,0,0,.26);
+    border-color: #fff;
+    border-width: 1px;
+    color: #fff;
+    padding: 20px;
+    transition: background-color 1s,color 1s;
+    width: 520px;
+    margin-top: 32%;
+    margin-left: 28%;
+    margin-right: 30%;
+
+    
+}
+.card {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card[_ngcontent-c4]:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+}
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+
+@media (max-width: 720px){
+    .comingsoon
+    {
+        font-size:10px;
+    }
+}
